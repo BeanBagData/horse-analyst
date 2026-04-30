@@ -461,8 +461,8 @@ Lists every stored analysis pass across all races — useful for reading interme
 ```
 Current Model: gemma3:12b
 Save Reports : True
-Database     : C:\Users\Sam\projects\horse-analyst\horse_analyst.db
-Reports Dir  : C:\Users\Sam\projects\horse-analyst\reports
+Database     : C:\Users\User\projects\horse-analyst\horse_analyst.db
+Reports Dir  : C:\Users\User\projects\horse-analyst\reports
 
  [1] Change Ollama Model
  [2] Toggle Save Reports
@@ -601,7 +601,7 @@ PACE VECTOR AND TACTIC: TACTIC 1 — WIDE SWEEP
 **4. The Trinity Tables** — three mandatory output tables every analysis must contain:
 
 - **Table 1: Full Field Designation Mapping (Kinetic-Table)** — every horse listed with their Momentum Tactic (T1/T2/T3/Lead/Trap), base kinetic score, and kinetic justification. No horse may be omitted.
-- **Table 2: Tier 2 Survivor Audit Matrix (SAM)** — Torque Delta confirmation, gear history, trainer intent, and Tactic 2 Torque prerequisite status for each survivor.
+- **Table 2: Tier 2 Survivor Audit Matrix (User)** — Torque Delta confirmation, gear history, trainer intent, and Tactic 2 Torque prerequisite status for each survivor.
 - **Table 3: SSM Omni-Spatial Scoring Matrix** — spatial resonance, performance variance, and exotic placement candidates.
 
 **5. Investment directive:**
@@ -686,7 +686,7 @@ Create a file called `prompt_improvements.txt` in the root folder and maintain t
 ## CORRECTIONS TO IMPLEMENT
 - PASS_2 checklist misses M1.35 Gate-Release for horses with barrier incidents in last 3 runs
 - M3.21.C Extreme Distance Drop fires too aggressively in Silo C — apply only when drop >= 400m
-- SAM Table: Tactic 2 torque prerequisite was not reclassified to Pocket Trap for 2 runners
+- User Table: Tactic 2 torque prerequisite was not reclassified to Pocket Trap for 2 runners
 
 ## ABSTAIN PATTERNS (race types to avoid)
 - Silo C maiden races with field >= 12 produce High Entropy N_p >= 5 in ~80% of cases
@@ -1061,7 +1061,7 @@ horse-analyst/                               ← project root (clone here)
 | `sectionals` | L200m / L400m / L600m times per runner |
 | `speedmap_positions` | Actual speed map widget positions |
 | `trainer_stats` | Breakdown by track condition, distance, barrier, spell, month |
-| `jockey_stats` | Same breakdown as trainer_stats |
+| `jockey_stats` | Usere breakdown as trainer_stats |
 | `backtest_results` | 1A selection outcome per race for performance tracking |
 
 **`analysis_results.analysis_pass` values:**
@@ -1082,7 +1082,7 @@ horse-analyst/                               ← project root (clone here)
 
 ## Navigation Rules
 
-The same three-level structure applies identically to **Analyse [1]**, **Scrape [5]**, and **Post-Race [6]**:
+The Usere three-level structure applies identically to **Analyse [1]**, **Scrape [5]**, and **Post-Race [6]**:
 
 ```
 Main Menu
