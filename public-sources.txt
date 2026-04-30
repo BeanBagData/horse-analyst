@@ -1,0 +1,34 @@
+## Good public sources
+
+| Site | URL | Useful data |
+|---|---|---|
+| Racing Queensland Open Data | https://www.racingqueensland.com.au/about/reports-and-data/open-data | Club details, meeting dates, race fields, horse names, jockeys, trainers, form, gear changes, results, shoe reports, scratchings, steward summaries/reports, integrity info  [racingqueensland.com](https://www.racingqueensland.com.au/about/reports-and-data/open-data) |
+| Racing Queensland data portal item | https://www.data.qld.gov.au/datarequest/8aa26c2b-1215-4e51-b967-907c2a60669a | Notes that race reports were moved to discrete HTML files and Racing Australia links rather than a direct API  [data.qld.gov](https://www.data.qld.gov.au/datarequest/comment/8aa26c2b-1215-4e51-b967-907c2a60669a) |
+| Equibase / The Jockey Club | https://www.jockeyclub.com/Default.asp?section=Companies&area=3 | Entries Plus, Virtual Stable, Stats Central, profiles for horses, jockeys, trainers, tracks, and race series  [jockeyclub](https://www.jockeyclub.com/Default.asp?section=Companies&area=3) |
+| Betfair race card endpoint discussion | https://www.betfair.com/rest/v2/raceCard | Race cards with horse name, jockey, barrier, and results are referenced as retrievable via Betfair’s API ecosystem  [forum.betangel](https://forum.betangel.com/viewtopic.php?t=11883) |
+| The Racing API | https://www.theracingapi.com | API/database with racecards, results, odds, horse, jockey, trainer, and broader coverage across UK, Ireland, Australia, and North America  [theracingapi](https://www.theracingapi.com) |
+| Racing and Sports trainer profiles | https://www.racingandsports.com.au/thoroughbred/trainer | Trainer/stable stats, racecourses, distances, jockeys, horses, and form records  [racingandsports.com](https://www.racingandsports.com.au/thoroughbred/trainer) |
+| British Horseracing Authority stewards reports | https://www.britishhorseracing.com/racing/stewards-reports/ | Steward reports archive and searchable reports  [britishhorseracing](https://www.britishhorseracing.com/racing/stewards-reports/) |
+
+## Best matches for your needs
+
+- Race cards, runners, horse, trainer, jockey, track info: Racing Queensland, Equibase, The Racing API, and Betfair are the best matches because they expose entry-level meeting and race data. [news.ycombinator](https://news.ycombinator.com/item?id=7779117)
+- Form guides and historical performance: Racing Queensland, Equibase/Stats Central, Racing and Sports, and The Racing API are the most relevant. [racingandsports.com](https://www.racingandsports.com.au/thoroughbred/trainer)
+- Steward reports / integrity reports: Racing Queensland and British Horseracing Authority are the clearest public sources I found. [racingqueensland.com](https://www.racingqueensland.com.au/about/reports-and-data/open-data)
+- Stable locations: public trainer/stable profile pages exist on Racing and Sports and some trainer directories, but true stable-location data is usually scattered and not consistently exposed as structured open data. [horseracing.com](https://horseracing.com.au/trainer/)
+- Speed map / sectional / live position data: this is usually commercial rather than open, with Total Performance Data and similar vendors providing live tracking and race metrics. [totalperformancedata](https://www.totalperformancedata.com)
+
+## What to expect
+
+Public “open URL” access usually means one of three things: a public website you can scrape, an open-data portal, or an API that requires registration but is publicly documented. For the exact fields you listed, Racing Queensland is the most explicit open-data source because it mentions nominations, acceptances, weights, fields, form, gear changes, results, shoe reports, scratchings, jockey alterations, and steward reports. For deeper historical/statistical databases, Equibase and The Racing API are stronger, but they are more API/product-driven than fully open government-style data portals. [jockeyclub](https://www.jockeyclub.com/Default.asp?section=Companies&area=3)
+
+## Recommended starting set
+
+- Racing Queensland Open Data: https://www.racingqueensland.com.au/about/reports-and-data/open-data [racingqueensland.com](https://www.racingqueensland.com.au/about/reports-and-data/open-data)
+- Racing Queensland data available page: https://www.racingqueensland.com.au/about/reports-and-data/open-data/data-available [racingqueensland.com](https://www.racingqueensland.com.au/about/reports-and-data/open-data/data-available)
+- Equibase / The Jockey Club: https://www.jockeyclub.com/Default.asp?section=Companies&area=3 [jockeyclub](https://www.jockeyclub.com/Default.asp?section=Companies&area=3)
+- The Racing API: https://www.theracingapi.com [theracingapi](https://www.theracingapi.com)
+- Betfair raceCard reference: https://www.betfair.com/rest/v2/raceCard [forum.betangel](https://forum.betangel.com/viewtopic.php?t=11883)
+- British Horseracing Authority steward reports: https://www.britishhorseracing.com/racing/stewards-reports/ [britishhorseracing](https://www.britishhorseracing.com/racing/stewards-reports/)
+
+A useful next step is to split these into “scrape-friendly HTML pages,” “documented APIs,” and “downloadable open datasets” so you can build an extractor against the right source type.

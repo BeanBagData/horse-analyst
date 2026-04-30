@@ -1,0 +1,5 @@
+{
+  "model": "gemma4:e2b",
+  "save_reports": true,
+  "run_all_passes": true
+}

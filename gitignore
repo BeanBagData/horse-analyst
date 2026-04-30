@@ -1,0 +1,60 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── horse-analyst generated data ──────────────────────────────────────────────
+# These contain your personal race history and analysis data.
+# Remove these lines if you want to track your reports in git.
+horse_analyst.db
+horse_analyst.db-wal
+horse_analyst.db-shm
+reports/
+
+# ── API keys and secrets ───────────────────────────────────────────────────────
+.env
+.env.local
+secrets.json
+api_keys.txt
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Playwright ────────────────────────────────────────────────────────────────
+playwright/.local-chromium/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini

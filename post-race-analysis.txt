@@ -1,0 +1,41 @@
+## Post Race AU Analysis ##
+Theory: It's not about predicting results, it's about managing risk.
+Critically analyse the analysis, thinking mode, prediction and results and use the video replay for audio and visual clues pre-jump such as commentary analysis and late scratchings.
+ Look for inefficiencies in the data, not market pricing, by comparing your own Australian horse racing training data corpus 2024/25 to find other high correlated patterns, clues and improvements with the race analysis and predictions.
+Refer to the prompt used if attached and applicable. 
+Silo the critical analsyis and results into groups so we target specific fixes and improvements:
+A. Saturday (Metropolitan, Tier 1)
+B. Wednesday or Friday
+C. All Other Days (Monday, Tuesday, Thursday, Sunday)
+Objectives:
+1. 1A Wins.
+2. 1A places in top 3.
+3. 1B places 2 - 3.
+4. 1A and B in Top 4.
+5. All graveyard selections correct.
+6. All residual selections in the top 4.
+7. Mortal Lay selections are correct.
+Conduct a forensic trace:
+Evaluate the 1A selection relative to the underlying *analysis* and *final race outcome*.
+Provide the complete mapping of the Prediction vs. Actual Results for the full field by listing EVERY horse, not just the first 4 places.
+Which was more correct in the analysis and predictions, FULL FIELD DESIGNATION MAPPING (KINETIC-TABLE), SSM OMNI-SPATIAL SCORING MATRIX or BTR PROBABILITY TABLE are there any alignment correlations, e.g. FULL FIELD DESIGNATION MAPPING (KINETIC-TABLE) and BTR PROBABILITY TABLE both the same = winning correct selections.
+Did the prompt analyse and output each horse as per the prompt instructions, if not, suggest a mandate prompt to reinforce this.
+If 1A did not win, ask why, was it physics, gear, jockey, weight vs speed over distance etc?
+Evaluate using Bob Moore Theory If 1A did not win, did they lose by a negligible length? This could mean there was quantifiable trouble (blocked runs, severe checks, repeated interference) but still finished relatively close or showed strong late momentum this is not a failure.
+Consider track shape, Consider track locations, rail data.
+Evaluate if both the graveyard, kinetic matrix and mortal lay selections were correct.
+IF selection not in graveyard logic should have these in the kinetic matrix or another group still in contention, did they place and should they have been included in the matrix or exotics etc?
+Consider patterns with track, distance, class, barrier etc that might establish better primary selections.
+Was the Holistic Profiling correct, reverse engineer the actual winning horse and other places using Markovian State Audit, Poincaré Physics Weighting etc.
+Look for more logical connections or possible overlooked connections due to bias in pre-race data.
+Consider selections that were not analysed but placed and why.
+Look for semantic clues that might uncover patterns for horses that place first.
+Consider if additional sources provided too much noise for the analysis.
+Consider confidence scores in relative to final outcome.
+Trace winning horses thinking paths in reverse from the prediction to see what went right and wrong.
+Provide feedback about patterns that may exist with the winners, barriers and track length, For example: 900m to 1300m have more winners in barriers 1 - 6 and 1400m to 2000m+ have more winners in barriers 7 - 12+ etc.
+Was the correct model used, e.g. pace centric over time vs track condition vs time of day depletion.
+Consider if a horse should have won on paper but didn't because of a bad jump, being boxed in etc due to moore's forgiveness. 
+Consider race and track isolation from the global logic to ensure the analysis and prediction logic does not leak.
+Don't find statistical outliers but mathematical inevitability to eliminates the "human error".
+Celebrate the wins by reinforcing good patterns.
